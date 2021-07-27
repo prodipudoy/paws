@@ -1,0 +1,80 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    a.navbar-brand {
+        display: inline-block;
+        width: 75%;
+    }
+    .container.headerbg {
+        padding: 7px 10px;
+    }
+    nav{
+        top: 0;
+        position: fixed !important;
+        height: 80px;
+    }
+    .navbar{
+        padding-top: 0;
+    }
+    .header_box h4 {
+        font-size: 24px;
+    }
+
+    .main_pera p {
+        font-size: 18px;
+    }
+    .pets_box {
+        margin-bottom: -300px;
+    }
+    .aboutbox3 {
+        padding-top: 170px;
+    }
+    #aboutus{
+        padding: 250px 0 0;
+    }
+
+    .counterbox h2 {
+        font-size: 35px;
+    }
+
+    .c_top h3 {
+        font-size: 24px;
+    }
+
+    .copyright_p p{
+        text-align: center;
+    }
+    .social_icon{
+        text-align: center;
+    }
+    
+}
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .hero_form {
+        padding: 200px 0 200px;
+    }
+
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header_box h4 {
+        font-size: 33px;
+    }
+
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+ /*Extra  large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px){
+	
+}
+ /*Extra extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+	
+}
